@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
   DEVICE: cph2349
   DT_LINK: https://github.com/ZorEl212/twrp_oppo_cph2349.git
   DT_PATH: device/oppo/cph2349
